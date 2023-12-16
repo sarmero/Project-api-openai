@@ -1,0 +1,55 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ecf0f1;
+}
+
+tr:nth-child(odd) {
+  background-color: #d4e6f1;
+}
+
+#txt_question {
+  margin-top: 10px;
+  padding: 8px;
+}
+
+#btn_send {
+  padding: 10px, 0, 10px, 0;
+  /* background-color: #3498db; */
+  /* color: white; */
+  cursor: pointer;
+}
+
+#txt_rta {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.elem, #vistaPreviaContainer{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+textarea{
+  border-radius: 10px;
+  border-color: rgb(7, 181, 181);
+  height: 150px;
+}
